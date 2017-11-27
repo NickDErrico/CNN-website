@@ -1,93 +1,196 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-    crossorigin="anonymous">
-    <style media=screen>
-    body {
-      display: grid | inline-grid | subgrid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <style media="screen">
+    .navbar {
+      background-color: black;
+      height: 20px;
     }
-    .nav{
-      background-color: #0061AA;
-      grid-row-start: 1;
-      grid-row-end: 4;
-      height: 75px;
-      text-align: center;
+
+    .row {
+      margin-left: 150px;
     }
-    .item {
-      background-color: red;
+
+    a {
+      color: #CCCCCC;
+      /*text-align: center;*/
+      margin: 1px 5px;
     }
-    </style>
-    <title>CNN</title>
 
-  </head>
-  <body>
+    span {
+      color: #CCCCCC;
+      /*text-align: center;*/
+    }
 
-  <div class="Privacy"><h4>Our Terms of Service and Privacy Policy have changed</h4>
-  <h5>By continuing to use this site, you are agreeing to the new <strong><u>Privacy Policy</u></strong> and <strong><u>Terms of Service</u></strong>.</h5></div>
-    <div class="nav col-xs-12 col-sm-12 col-mid-12 col-lg-12 "> <div class"toolbar-links">CNN  Money  U.S.+  Business  Markets  Tech  Media  Personal Finance  Small Biz  Luxury</div></div>
-    <div class="item"></div>
-    <h2>Richard Branson says he has no recollection of an episode at his Caribbean home in 2010 that led a woman to accuse him of sexual assault.</h2>
-    <h6>by Charles Riley  @CRrileyCNN</h6>
-    <h6> &#128339; November 27, 2017: 10:47 AM ET</h6><br>
+    .trump-story{
+      float: left;
+      width: 100%;
+    }
 
-    <p>The billionaire has been accused of putting his face in the breasts of an American who was working as a backup singer for the English artist Joss Stone. The group was attending a party at Branson's Necker Island.</p><br>
+    .top-stories{
+      float: right;
+      width: 100%
+    }
 
-    <p>"He went 'brrrrrr' and just walked away. It was surreal, totally out of the blue," Antonia Jenae told British newspaper The Sun.</p><br>
+    .sport{
+      width: 100%;
+    }
 
-    <p>"His behavior was disgusting. I feel like it was sexual assault," she added. "Everyone was wondering why I wasn't angry because I'm usually a firebrand. But I was just too shocked."</p><br>
+    .today-in-politics{
+      width: 100%;
+    }
 
-    <p>A spokesperson for Branson's company, Virgin, said in response:</p><br>
+    .news-and-buzz{
+      width: 100%;
+    }
 
-    <p>"Richard has no recollection of this matter and neither do his family and friends, who were with him at the time. There would never have been any intention to offend or make anyone feel uncomfortable in any way and Richard apologizes if anyone felt that way during their time on the island."</p><br>
+    .royal-wedding{
+      width: 100%;
+    }
 
-    <p>Jenae appears to have first made the allegations in a Facebook post on October 16 that used the hashtag #metoo.<p><br>
+    .cyber-sale{
+      width: 100%;
+    }
 
-    <p>"He kept trying to convince me to show him my boobs like this Indian statute (sic) he had at his pool on his island, I took it as a 'joke,' " she wrote of Branson in the post.</p><br>
+    .opinion{
+      width: 100%;
+    }
 
-    <p>"As everyone was saying goodnight, he proceeded to 'motorboard' my breasts with his face," she continued. "I was so shocked. I think everyone was, no one said or did anything."</p><br>
+  </style>
 
-    <p>CNN has contacted Jenae for further comment.</p><br>
+  <title>CNN - Breaking News, Latest News and Videos</title>
+</head>
 
-    <p>Virgin also released a statement from Joss Stone's father, Richard Stoker, who attended the party in June 2010.</p><br>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <div class="row">
+        <a href="#"><img src="images/logo_cnn_nav_bottom.png" style="width:60px; height:60px;"</a>
+        <a href="#">U.S.</a><span>|</span>
+        <a href="#">World</a><span>|</span>
+        <a href="#">Politics</a><span>|</span>
+        <a href="#">Money</a><span>|</span>
+        <a href="#">Opinion</a><span>|</span>
+        <a href="#">Health</a><span>|</span>
+        <a href="#">Entertainment</a><span>|</span>
+        <a href="#">Tech</a><span>|</span>
+        <a href="#">style</a><span>|</span>
+        <a href="#">Travel</a><span>|</span>
+        <a href="#">Sports</a><span>|</span>
+        <a href="#">Video</a><span>|</span>
+        <a href="#">VR</a>
+        <a href="#">Live TV</a>
+        <a href="#">U.S. Edition+</a>
+        <a href="#">&#x1F50E;</a>
+        <a href="#">&#9776;</a>
+      </div>
+    </div>
+  </nav>
 
-    <p>"Joss and the group had a wonderful afternoon on Necker Island, everybody entered into the party spirit and it was wonderful getting to know Richard and his family," he said.</p><br>
+  <div class="container">
 
-    <p>The statement made no mention of any incident.</p><br>
-
-    <p>Jenae wrote on Facebook that her boss and her boss' father witnessed the incident. She told The Sun that she and Stone recorded a video immediately after to record their astonishment.</p><br>
-
-    <p>A representative for Stone declined to comment to The Sun. Her label did not respond to requests for comment from CNN.</p><br>
-      <p class="link">Related: Bidder proposes to make The Weinstein Co. a studio run by women</p><br>
-
-    <p>Allegations of sexual assaults by Hollywood producer Harvey Weinstein published in early October have been followed by a raft of complaints against other powerful men in business, media and politics.</p><br>
-
-    <p>Weinstein has denied all allegations of non-consensual sex.</p><br>
-
-    <p>Many women have posted their stories of abuse and harassment on the social media hashtag #metoo.</p><br>
-
-    <p>Branson was previously accused of inappropriately touching the ex-wife of Formula 1 driver Jenson Button after drinking heavily at a Japanese restaurant in Australia.</p><br>
-
-    <p>The driver wrote in his autobiography published last month that Branson made Jessica Michibata uncomfortable by flirting with her before "putting his hand on her face."</p><br>
-
-    <p>Button said the billionaire was "so hammered that he simply didn't understand what the problem was." The driver wrote in his book that Branson apologized, and quit drinking for "months afterwards."</p><br>
-
-    <p>In his autobiography, also published in October, Branson said he was "very, very inebriated." He admitted his "antics" at the restaurant may have caused offense, but said he and Button had since "smoothed it out."</p><br>
-
-    <p>"I can't ever remember ever getting that drunk, before or since," he wrote of the 2009 incident.</p><br>
-
-    <p class="link">Related: Harvey Weinstein banned for life from TV Academy</p>
-
-    <p>Jenae said in an Instagram post on Sunday that she has been called a "liar" and "gold digger" since The Sun published its story.</p><br>
-
-    <p>"I am strong," she said. "I just hope my situation can make it better for a person not as strong."</p><br>
-
-    <p>"There is safety in numbers," Jenae added. "That's why so many woman (sic) are speaking up now. Instead of asking me why didn't I say anything before now, what SHOULD be asked is why did he think that was okay?"</p><br>
-
+    <div class="col-xs-12 col-sm-9 col-lg-4">
+      <div class="trump-story">
+        <h1>Trump's Latest Conspiracy</h1>
+        <img src="images/trump1.jpg">
+        <p class="analysis"><strong>A NYT piece contains a paragraph saying Trump <br> suggested the 'Access Hollywood' tape was not real</strong></p>
+        <p>After saying 'i said it.' Trump reportedly questions authenticity of <br> infamous recording</p>
+        <p>CBO: Senate Tax Plan would increase deficit</p>
+        <p>Comments land Kellyanne Conway in hot water</p>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-lg-4 today-in-politics">
+          <h2>Today in Politics</h2>
+          <img src="images/franken.jpg">
+          <p><strong>Sen. Al Franken on allegations: <br> 'This has been a shock'</strong></p>
+          <p>Analysis: Nancy Pelosi's catastrophically bad <br> answer on John Coyers</p>
+          <p>Trump makes 'Pocahontas' crack at event <br> honoring Navajo code talkers</p>
+          <p>Showdown over top post at consumer <br> watchdog agency</p>
+          <p>Trump slams CNN international</p>
+          <p>Stelter: Why the media attacks still shock</p>
+          <p>Gergen: Trump's foolish war with the press</p>
+          <p>Stelter: This is how Trump blurs the truth</p>
+        </div>  <!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 top-stories">
+          <h2>Top Stories</h2>
+          <img src="images/nyt.jpg">
+          <p><strong>NYT: We regret offense cause by 'Nazi sympathizer' story</strong></p>
+          <p>Richard Branson says he does not remember alleged sexual assault</p>
+          <p>Kochs among Time Inc.'s new owners</p>
+          <p>Pope arrives in staunchly Buddhist country</p>
+          <p>'Complicit' is deemed word of the year</p>
+          <p>Parents allege abuse at kindergarten</p>
+          <p>Bitcoin's surge takes it above $9,500</p>
+          <p>Vegas shooting survivor killed in hit-and-run</p>
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 news-and-buzz">
+          <h2>News and Buzz</h2>
+          <p>Is Gwenyth Paltrow hinting she's engaged?</p>
+          <p>NFL players rip fans for cheering QB's injury</p>
+          <p>Billionaire defends impeachment ads</p>
+          <p>NFL players ejected after brawl</p>
+          <p>Celebs back controversial teen killer</p>
+          <p>NBA star cusses out coach on camera</p>
+          <p>Reward offered to behead actress, director</p>
+          <p>Daughter gets birthday card from dad, years <br> after he died</p>
+          <p>Plane crashes on highway, bursts into flames</p>
+          <p>Black Friday was huge for gun sales</p>
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 royal-wedding">
+          <h2>A royal wedding</h2>
+          <img src="images/harry.jpg">
+          <p><strong>An American will join the British royal family</strong></p>
+          <p>Markle barely let Harry finish proposing</p>
+          <p>The ring and the romance</p>
+          <p>Who is Prince Harry's bride-to-be?</p>
+          <p>Opinion: Why they could be the best royal couple</p>
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 cyber-sale">
+          <h2>The Cyber Sale is on</h2>
+          <img src="images/amazon.jpg"
+          <p><strong>Your Cyber Monday sales guide</strong></p>
+          <p>Beware of these online shopping scams</p>
+          <p>Cyber Monday could set a sales record</p>
+          <p>14 Hottest toys this holiday season</p>
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 check-these-out">
+          <h2>Check these out</h2>
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 cnn-money">
+          <h2>CNN Money</h2>
+        </div><!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 sports">
+           <h2>Sports</h2>
+           <img src="images/crash.jpg">
+           <p><strong>Plane crash wipes out soccer team: mistake or mansluaghter?</strong></p>
+           <p>Zombie Cowboys' playoff chances all but dead</p>
+           <p>Ex-MVPmay retire at 29 due to injuries 'mental toll'</p>
+           <p>Another NFL star in hot water</p>
+           <p>NFL team must bench former MVP candidate</p>
+        </div><!--/.col-xs-6.col-lg-4-->
+        <div class="col-xs-6 col-lg-4 opinion">
+           <h2>Opinion</h2>
+           <img src="images/ivanka.jpg">
+           <p><strong>Ivanka shouldn't be America's representative</strong></p>
+           <p>Democrats have to reckon with Bill Clinton</p>
+           <p>Ban the term 'Fake News'</p>
+           <p>The catch-22 that holds vets back</p>
+           <p>Trump truly deserves to be 'Person of the Year'</p>
+        </div><!--/.col-xs-6.col-lg-4-->
+      </div><!--/row-->
+    </div><!--/.col-xs-12.col-sm-9-->
   </body>
 </html>
